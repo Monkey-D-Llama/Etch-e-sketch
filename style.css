@@ -1,0 +1,23 @@
+#gridgang{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    width: 400px;
+    height: 400px;
+    border: solid black 1px;
+}
+.grid-cell{
+    flex: 1 4 auto;
+    opacity: .1;
+    background-color: black;
+    /* border: solid black 1px; */
+
+}
+.grid-row{
+    display: flex;
+    justify-content: strecth;
+    flex: 1 4 auto;
+    
+    /* padding: 5px; */
+    
+}
